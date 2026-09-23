@@ -1,5 +1,8 @@
 package co.edu.usc.voltacali;
 
+import java.util.Vector;
+import java.util.Arrays;
+
 
 public class CargadorVE {
 
@@ -18,6 +21,11 @@ public class CargadorVE {
     private Ubicacion ubicacion;
     private double potenciaActual;
 
-    
+    private Vector<RegistroSesion> bitacora;
+
+    public static int totalCargadores = 0;
+    public static int contadorRegistros = 0;
+
+    }
 
     
